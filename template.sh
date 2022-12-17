@@ -6,7 +6,7 @@ FILE_NAME="${CLASS_NAME^}.hpp"
 echo "#ifndef ${CLASS_NAME^^}_HPP" > $FILE_NAME
 echo "#define ${CLASS_NAME^^}_HPP" >> $FILE_NAME
 echo "" >> $FILE_NAME
-echo "Class ${CLASS_NAME^}" >> $FILE_NAME
+echo "class ${CLASS_NAME^}" >> $FILE_NAME
 echo "{" >> $FILE_NAME
 echo "" >> $FILE_NAME
 echo "private:" >> $FILE_NAME
